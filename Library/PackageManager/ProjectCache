@@ -1,6 +1,6 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Packages/manifest.json
+    m_FilePath: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Games-Engines-2-CA/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
@@ -8,12 +8,12 @@ m_ProjectFiles:
       ticks: 637805350090637892
     m_Hash: 3218384633
   m_LockFileStatus:
-    m_FilePath: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Packages/packages-lock.json
+    m_FilePath: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Games-Engines-2-CA/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637805350107693970
+      ticks: 637828573606636722
     m_Hash: 376607542
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -25,7 +25,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -151,7 +151,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -264,7 +264,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.5
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.ide.visualstudio@2.0.5
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -345,7 +345,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -418,7 +418,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.3
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.postprocessing@3.0.3
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.postprocessing@3.0.3
       assetPath: Packages/com.unity.postprocessing
       name: com.unity.postprocessing
       displayName: Post Processing
@@ -509,7 +509,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.3.2
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.render-pipelines.universal@10.3.2
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.render-pipelines.universal@10.3.2
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -627,7 +627,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.22
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.test-framework@1.1.22
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.test-framework@1.1.22
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -730,7 +730,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.textmeshpro@3.0.1
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -895,7 +895,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.6
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.timeline@1.4.6
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.timeline@1.4.6
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -2864,7 +2864,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2927,7 +2927,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3006,7 +3006,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.3.2
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.render-pipelines.core@10.3.2
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.render-pipelines.core@10.3.2
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3162,7 +3162,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.3.2
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.shadergraph@10.3.2
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.shadergraph@10.3.2
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3321,7 +3321,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.1
       source: 1
-      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Library\PackageCache\com.unity.searcher@4.3.1
+      resolvedPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA\Library\PackageCache\com.unity.searcher@4.3.1
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3396,5 +3396,5 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Packages
+m_ProjectPath: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Games-Engines-2-CA/Packages
 m_EditorVersion: 2020.2.6f1 (8a2143876886)
