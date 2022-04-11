@@ -1,74 +1,70 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPath : MonoBehaviour
-{
-    public List<Vector3> waypoints = new List<Vector3>();
-    // Start is called before the first frame update
+public class FollowPath : SteeringBehaviour {
 
-    public int current = 0;
+    public Path path;
 
+    Vector3 nextWaypoint;
+
+    public float waypointDistance = 5;
+
+    public int next = 0;
     public bool isLooped = true;
 
-    private void PopulatePath()
-    {
-        waypoints.Clear();
-        foreach(Transform child in transform.GetComponentsInChildren<Transform>())
-        {
-            if (child != transform)
-            {
-                waypoints.Add(child.position);
-            }
-        }
-    }
-
-    public void Awake()
-    {
-        PopulatePath();
-    }
 
     public void OnDrawGizmos()
     {
-        PopulatePath();
-        Gizmos.color = Color.cyan;
-        for(int i = 1 ; i < waypoints.Count ; i ++)
+        if (isActiveAndEnabled && Application.isPlaying)
         {
-            Gizmos.DrawLine(waypoints[i - 1], waypoints[i]);
-            Gizmos.DrawSphere(waypoints[i-1], 1);
-            Gizmos.DrawSphere(waypoints[i], 1);
-            
-        }
-
-        if (isLooped)
-        {
-            Gizmos.DrawLine(waypoints[waypoints.Count - 1], waypoints[0]);
-
+            Gizmos.color = Color.cyan;
+            Gizmos.DrawLine(transform.position, nextWaypoint);
         }
     }
 
     public Vector3 Next()
     {
-        return waypoints[current];
+        return path.waypoints[next];
+    }
+
+    public void AdvanceToNext()
+    {
+        if (isLooped)
+        {
+            next = (next + 1) % path.waypoints.Count;
+        }
+        else
+        {
+            if (next != path.waypoints.Count - 1)
+            {
+                next++;
+            }
+        }
     }
 
     public bool IsLast()
     {
-        return (current == waypoints.Count - 1);
+        return next == path.waypoints.Count - 1;
     }
- 
-    public void AdvanceToNext()
+
+
+    public override Vector3 Calculate()
     {
-        if (! isLooped)
+        nextWaypoint = Next();
+        if (Vector3.Distance(transform.position, nextWaypoint) < waypointDistance)
         {
-            if (! IsLast())
-            {
-                current ++; 
-            }
+            AdvanceToNext();
+        }
+
+        if (!isLooped && IsLast())
+        {
+            return boid.ArriveForce(nextWaypoint);
         }
         else
         {
-            current = (current + 1) % waypoints.Count;
+            return boid.SeekForce(nextWaypoint);
         }
     }
 }

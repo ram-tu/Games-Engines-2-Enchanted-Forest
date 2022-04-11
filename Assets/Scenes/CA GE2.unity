@@ -128,6 +128,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3843381593350271043, guid: 9f2dd03bfc6cba74ebea2f9835807644, type: 3}
   m_PrefabInstance: {fileID: 3843381592925383201}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &9147576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9147575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  path: {fileID: 1886355194}
+  waypointDistance: 1
+  next: 0
+  isLooped: 1
 --- !u!114 &9147581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,34 +156,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 9147575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7a9a9c428bbf648af2c6505e6d337c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a8f4fc79db1ea245a87a43fbb314e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 0, z: 0}
-  speed: 0
-  acceleration: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  maxSpeed: 2
-  maxForce: 10
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
   mass: 1
-  seekEnabled: 0
-  seekTargetTransform: {fileID: 0}
-  seekTarget: {x: 0, y: 0, z: 0}
-  arriveEnabled: 0
-  arriveTargetTransform: {fileID: 0}
-  arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
-  path: {fileID: 2041032160}
-  pathFollowingEnabled: 1
-  startingPoint: 0
-  waypointDistance: 1
+  damping: 0.01
   banking: 0.1
-  damping: 0.1
-  playerSteeringEnabled: 0
-  steeringForce: 100
-  pursueEnabled: 0
-  pursueTarget: {fileID: 0}
-  pursueTargetPos: {x: 0, y: 0, z: 0}
+  maxSpeed: 3
+  maxForce: 5
 --- !u!1001 &66486092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6225,34 +6227,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 458071114}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7a9a9c428bbf648af2c6505e6d337c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 0, z: 0}
-  speed: 0
-  acceleration: {x: 0, y: 0, z: 0}
+  weight: 1
   force: {x: 0, y: 0, z: 0}
-  maxSpeed: 6
-  maxForce: 10
-  mass: 1
-  seekEnabled: 0
-  seekTargetTransform: {fileID: 0}
-  seekTarget: {x: 0, y: 0, z: 0}
-  arriveEnabled: 0
-  arriveTargetTransform: {fileID: 0}
-  arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
+  boid: {fileID: 0}
   path: {fileID: 814855840}
-  pathFollowingEnabled: 1
-  startingPoint: 0
-  waypointDistance: 3
+  waypointDistance: 5
+  next: 0
+  isLooped: 1
+--- !u!114 &458071118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 458071114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8f4fc79db1ea245a87a43fbb314e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: {x: 0, y: 0, z: 0}
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  mass: 1
+  damping: 0.01
   banking: 0.1
-  damping: 0.1
-  playerSteeringEnabled: 0
-  steeringForce: 100
-  pursueEnabled: 0
-  pursueTarget: {fileID: 0}
-  pursueTargetPos: {x: 0, y: 0, z: 0}
+  maxSpeed: 5
+  maxForce: 10
 --- !u!4 &467820316 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4339898394216490, guid: a7984f59c227d0240b9771d2797a085c, type: 3}
@@ -6284,7 +6288,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 545003458}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
+  m_Script: {fileID: 11500000, guid: dde80c5533eb05141b4f8fb5975107f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
@@ -11792,7 +11796,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 814855839}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
+  m_Script: {fileID: 11500000, guid: dde80c5533eb05141b4f8fb5975107f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
@@ -17014,6 +17018,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6799227857191373109, guid: 6f186276a6144244fa635069ea61b3f8, type: 3}
   m_PrefabInstance: {fileID: 6799227857543795291}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &946811655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946811654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 1
+  force: {x: 0, y: 0, z: 0}
+  boid: {fileID: 0}
+  path: {fileID: 2041032160}
+  waypointDistance: 1
+  next: 0
+  isLooped: 1
 --- !u!114 &946811661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17023,34 +17046,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 946811654}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7a9a9c428bbf648af2c6505e6d337c, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a8f4fc79db1ea245a87a43fbb314e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 0, z: 0}
-  speed: 0
-  acceleration: {x: 0, y: 0, z: 0}
   force: {x: 0, y: 0, z: 0}
-  maxSpeed: 1.8
-  maxForce: 10
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
   mass: 1
-  seekEnabled: 0
-  seekTargetTransform: {fileID: 0}
-  seekTarget: {x: 0, y: 0, z: 0}
-  arriveEnabled: 0
-  arriveTargetTransform: {fileID: 0}
-  arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
-  path: {fileID: 545003459}
-  pathFollowingEnabled: 1
-  startingPoint: 0
-  waypointDistance: 1
+  damping: 0.01
   banking: 0.1
-  damping: 0.1
-  playerSteeringEnabled: 0
-  steeringForce: 100
-  pursueEnabled: 0
-  pursueTarget: {fileID: 0}
-  pursueTargetPos: {x: 0, y: 0, z: 0}
+  maxSpeed: 3
+  maxForce: 5
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -17364,7 +17370,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6152302650356374702, guid: 4991577665b59ec489aa7660c9c3f8a2, type: 3}
   m_PrefabInstance: {fileID: 6152302651140651945}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1020731912
+--- !u!114 &1020731907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17373,34 +17379,36 @@ MonoBehaviour:
   m_GameObject: {fileID: 1020731906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b7a9a9c428bbf648af2c6505e6d337c, type: 3}
+  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocity: {x: 0, y: 0, z: 0}
-  speed: 0
-  acceleration: {x: 0, y: 0, z: 0}
+  weight: 1
   force: {x: 0, y: 0, z: 0}
-  maxSpeed: 1.5
-  maxForce: 10
-  mass: 1
-  seekEnabled: 0
-  seekTargetTransform: {fileID: 0}
-  seekTarget: {x: 0, y: 0, z: 0}
-  arriveEnabled: 0
-  arriveTargetTransform: {fileID: 0}
-  arriveTarget: {x: 0, y: 0, z: 0}
-  slowingDistance: 80
-  path: {fileID: 1886355194}
-  pathFollowingEnabled: 1
-  startingPoint: 0
+  boid: {fileID: 0}
+  path: {fileID: 545003459}
   waypointDistance: 1
+  next: 0
+  isLooped: 1
+--- !u!114 &1020731908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020731906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a8f4fc79db1ea245a87a43fbb314e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: {x: 0, y: 0, z: 0}
+  acceleration: {x: 0, y: 0, z: 0}
+  velocity: {x: 0, y: 0, z: 0}
+  mass: 1
+  damping: 0.01
   banking: 0.1
-  damping: 0.1
-  playerSteeringEnabled: 0
-  steeringForce: 100
-  pursueEnabled: 0
-  pursueTarget: {fileID: 0}
-  pursueTargetPos: {x: 0, y: 0, z: 0}
+  maxSpeed: 3
+  maxForce: 5
 --- !u!1001 &1124647926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29438,7 +29446,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a216e82a55805a44993154c1438aea82, type: 3}
       propertyPath: m_Name
-      value: Rena
+      value: Elk
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a216e82a55805a44993154c1438aea82, type: 3}
@@ -29468,7 +29476,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1886355193}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
+  m_Script: {fileID: 11500000, guid: dde80c5533eb05141b4f8fb5975107f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
@@ -39315,7 +39323,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2041032159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e843867029036d48ad84ddf1532be86, type: 3}
+  m_Script: {fileID: 11500000, guid: dde80c5533eb05141b4f8fb5975107f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints:
@@ -39851,7 +39859,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3843381593350271046, guid: 9f2dd03bfc6cba74ebea2f9835807644, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9f2dd03bfc6cba74ebea2f9835807644, type: 3}
 --- !u!1001 &6152302651140651945
 PrefabInstance:
@@ -39912,7 +39921,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wisp (Blue)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6152302650356374693, guid: 4991577665b59ec489aa7660c9c3f8a2, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4991577665b59ec489aa7660c9c3f8a2, type: 3}
 --- !u!1001 &6799227857543795291
 PrefabInstance:
@@ -39973,7 +39983,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wisp (Aqua)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6799227857191373103, guid: 6f186276a6144244fa635069ea61b3f8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6f186276a6144244fa635069ea61b3f8, type: 3}
 --- !u!1001 &8849357195667892486
 PrefabInstance:
