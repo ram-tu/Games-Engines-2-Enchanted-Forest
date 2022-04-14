@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\SteeringBehaviour.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\Scripts\Harmonic.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\PostProcessingProfile.cs" />
@@ -95,10 +96,12 @@
      <Compile Include="Assets\Scripts\Path.cs" />
      <Compile Include="Assets\Scripts\BigBoid.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\Scripts\Flee.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\UserLutModel.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+     <Compile Include="Assets\Scripts\StateMachine.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\UserLutComponent.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\Script\FreeCam.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
@@ -118,9 +121,6 @@
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\Flee.cs" />
-     <Compile Include="Assets\Scripts\Harmonic.cs" />
-     <Compile Include="Assets\Scripts\StateMachine.cs" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
