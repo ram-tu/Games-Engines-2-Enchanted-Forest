@@ -15,11 +15,11 @@ C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Games-Engines-2-CA
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59361
+64143
 Successfully changed project path to: C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Games-Engines-2-CA
 C:/Users/35389/Desktop/Copy/Games Engines 2 Assignment/Games-Engines-2-CA
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 96.70 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.6f1 (8a2143876886)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Resources/UnitySubsystems
@@ -36,304 +36,144 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56604
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002939 seconds.
+Registered in 0.002951 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.18 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.182 seconds
+- Completed reload, in  1.325 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003264 seconds.
+Registered in 0.003370 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.72 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 59.76 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.089 seconds
+- Completed reload, in  1.190 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3105 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 160.1 MB.
-System memory in use after: 160.3 MB.
+System memory in use before: 160.5 MB.
+System memory in use after: 160.6 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3578.
-Total: 2.439100 ms (FindLiveObjects: 0.300300 ms CreateObjectMapping: 0.141900 ms MarkObjects: 1.900800 ms  DeleteObjects: 0.095200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Prefabs/stylized-fish
-  artifactKey: Guid(994fb05f0694c3e4dac15a47afc7b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish using Guid(994fb05f0694c3e4dac15a47afc7b2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080ae727fe80252d4e04a97825f9b5d1') in 0.005929 seconds
-  Import took 0.010674 seconds .
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3579.
+Total: 2.515800 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.184100 ms MarkObjects: 1.908000 ms  DeleteObjects: 0.122300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Prefabs/stylized-fish/source
-  artifactKey: Guid(5141b39bb3017e54e8cc23f8f7ce35ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/source using Guid(5141b39bb3017e54e8cc23f8f7ce35ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '751bb3bb4c34ebe676c474c124c809a5') in 0.004461 seconds
-  Import took 0.009322 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/Prefabs/stylized-fish/source/FishSketchfab.fbx
-  artifactKey: Guid(48f4ed1e6eac0bd4995f30f6f2e219b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/source/FishSketchfab.fbx using Guid(48f4ed1e6eac0bd4995f30f6f2e219b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543233c78175547bfdd97e55bd6a53ae') in 0.403059 seconds
-  Import took 0.421002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.349359 seconds.
-  path: Assets/Prefabs/stylized-fish/textures
-  artifactKey: Guid(46bfddcd1a85cc04491af0359296d4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/textures using Guid(46bfddcd1a85cc04491af0359296d4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359b79444f50a370e777ed236e1f2941') in 0.004484 seconds
-  Import took 0.010647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.086267 seconds.
-  path: Assets/Prefabs/stylized-fish/textures/Fish_Base_color.png
-  artifactKey: Guid(1006f9aff6710744abc3b8916c79005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/textures/Fish_Base_color.png using Guid(1006f9aff6710744abc3b8916c79005f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d3099eeda7fe17590add5079d38ffb') in 0.028772 seconds
-  Import took 0.033998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/Prefabs/stylized-fish/textures/Fish_Roughness.png
-  artifactKey: Guid(1d69716e4bf8f7345945c71a7b9b4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/textures/Fish_Roughness.png using Guid(1d69716e4bf8f7345945c71a7b9b4c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636bd7e5bc8340975a7da967a619d02a') in 0.016665 seconds
-  Import took 0.022314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Prefabs/stylized-fish/textures/Fish_Mixed_AO.png
-  artifactKey: Guid(3631e4fa2fdca1841b986b6985920829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/textures/Fish_Mixed_AO.png using Guid(3631e4fa2fdca1841b986b6985920829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c26155d10708524fe503dc1bf2bdb602') in 0.021323 seconds
-  Import took 0.026742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Prefabs/stylized-fish/textures/Fish_Metallic.png
-  artifactKey: Guid(1a08f3d45e94e4844976aa85e6d20cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/textures/Fish_Metallic.png using Guid(1a08f3d45e94e4844976aa85e6d20cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '593631c3dbca23835e29aea237e7e9ae') in 0.011518 seconds
-  Import took 0.016797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Prefabs/stylized-fish/textures/Fish_Normal_OpenGL.png
-  artifactKey: Guid(d77a515dec00a284a8b9a99ec524ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/textures/Fish_Normal_OpenGL.png using Guid(d77a515dec00a284a8b9a99ec524ffb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146fc5506b3a9aee890ef51101132672') in 0.027461 seconds
-  Import took 0.032699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 201.920379 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials
-  artifactKey: Guid(9149750bb9c29ce44a7261f3c5781b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials using Guid(9149750bb9c29ce44a7261f3c5781b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0a343bb439b453f122630ae2e39007') in 0.005260 seconds
-  Import took 0.012141 seconds .
+  path: Assets/Audio/zapsplat_fantasy_fairy_dust_twinkle_sparkle_bell_tree_med_pitched_65545.mp3
+  artifactKey: Guid(80b8fdb1d407d774598805ace863cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/zapsplat_fantasy_fairy_dust_twinkle_sparkle_bell_tree_med_pitched_65545.mp3 using Guid(80b8fdb1d407d774598805ace863cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067ce5e374eff02c181e634489ed8012') in 0.105264 seconds
+  Import took 0.118512 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003095 seconds.
+Registered in 0.005098 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.021 seconds
+- Completed reload, in  1.441 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.1 MB.
-System memory in use after: 170.3 MB.
+System memory in use before: 153.8 MB.
+System memory in use after: 154.0 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3666.
-Total: 3.037500 ms (FindLiveObjects: 0.410600 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.360500 ms  DeleteObjects: 0.068400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.348329 seconds.
-  path: Assets/Prefabs/stylized-fish/source/Fish Animation.controller
-  artifactKey: Guid(53cc2b1c99e5d4f449a751033caca8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/source/Fish Animation.controller using Guid(53cc2b1c99e5d4f449a751033caca8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43105b05babf6bb6711a6ed9f2062635') in 0.023146 seconds
-  Import took 0.028370 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.377197 seconds.
-  path: Assets/Prefabs/stylized-fish/source/FishSketchfab.fbx
-  artifactKey: Guid(48f4ed1e6eac0bd4995f30f6f2e219b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/source/FishSketchfab.fbx using Guid(48f4ed1e6eac0bd4995f30f6f2e219b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a4299f4e748d6ae2a3de69de79b3f3') in 0.187838 seconds
-  Import took 0.194176 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3591.
+Total: 2.998400 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.197200 ms MarkObjects: 2.318300 ms  DeleteObjects: 0.105100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003423 seconds.
+Registered in 0.003294 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
+- Completed reload, in  1.135 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.3 MB.
-System memory in use after: 170.5 MB.
+System memory in use before: 153.9 MB.
+System memory in use after: 154.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3705.
-Total: 2.489700 ms (FindLiveObjects: 0.309300 ms CreateObjectMapping: 0.124100 ms MarkObjects: 1.984700 ms  DeleteObjects: 0.070100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 161.012520 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials/Fish_Base_color 1.mat
-  artifactKey: Guid(a202cd16ba276cc44817ad64da769f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials/Fish_Base_color 1.mat using Guid(a202cd16ba276cc44817ad64da769f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8c144996a77af77a8cb85911621436') in 0.155118 seconds
-  Import took 0.159981 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3594.
+Total: 2.651800 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.178800 ms MarkObjects: 2.049200 ms  DeleteObjects: 0.070400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials/Fish_Normal_OpenGL.mat
-  artifactKey: Guid(b978cd3ebb7223b45a814c7fabe69bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials/Fish_Normal_OpenGL.mat using Guid(b978cd3ebb7223b45a814c7fabe69bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f418b05a2aadaec82ce997788f193') in 0.020372 seconds
-  Import took 0.025219 seconds .
+  Time since last request: 287.814991 seconds.
+  path: Assets/Audio/zapsplat_fantasy_fairy_dust_twinkle_sparkle_bell_tree_lower_pitched_65543.mp3
+  artifactKey: Guid(1ea68dacfcf74904c84cb806ebf4a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/zapsplat_fantasy_fairy_dust_twinkle_sparkle_bell_tree_lower_pitched_65543.mp3 using Guid(1ea68dacfcf74904c84cb806ebf4a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f909b284ea0c9f62bdc157d296c39e5c') in 0.053780 seconds
+  Import took 0.060247 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials/Fish_Roughness.mat
-  artifactKey: Guid(2511f0360d32fea42b2d6181f34121d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials/Fish_Roughness.mat using Guid(2511f0360d32fea42b2d6181f34121d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd3284a92494299dfe9b414c46cd96f') in 0.012353 seconds
-  Import took 0.016896 seconds .
+  Time since last request: 16.155410 seconds.
+  path: Assets/Audio/fariy-1.mp3
+  artifactKey: Guid(1ea68dacfcf74904c84cb806ebf4a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/fariy-1.mp3 using Guid(1ea68dacfcf74904c84cb806ebf4a177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '654d5c3fd3e9cbf32722890738436ba5') in 0.010713 seconds
+  Import took 0.016064 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000416 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials/Fish_Normal_OpenGL 1.mat
-  artifactKey: Guid(40a71bb8cb7d78542b1f1a8ec20d72e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials/Fish_Normal_OpenGL 1.mat using Guid(40a71bb8cb7d78542b1f1a8ec20d72e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f977297fbbc0e7313aa39429d10b796') in 0.013661 seconds
-  Import took 0.019089 seconds .
+  Time since last request: 8.458278 seconds.
+  path: Assets/Audio/fairy-2.mp3
+  artifactKey: Guid(80b8fdb1d407d774598805ace863cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/fairy-2.mp3 using Guid(80b8fdb1d407d774598805ace863cbf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be074ade0f8ec03e5aa63284c1f81573') in 0.013229 seconds
+  Import took 0.018550 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials/Fish_Base_color.mat
-  artifactKey: Guid(ca25d9cc58d9b9a40af6376133b43810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials/Fish_Base_color.mat using Guid(ca25d9cc58d9b9a40af6376133b43810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d05ffc2241ae6ae553e672b15d499') in 0.016836 seconds
-  Import took 0.021741 seconds .
+  Time since last request: 219.017704 seconds.
+  path: Assets/Audio/mixkit-magical-light-moving-2584.wav
+  artifactKey: Guid(4489e7795a005d84fbc445e24f6dda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/mixkit-magical-light-moving-2584.wav using Guid(4489e7795a005d84fbc445e24f6dda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3241e8dcac6045eaec270821161f4e') in 0.016047 seconds
+  Import took 0.021750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Prefabs/stylized-fish/Materials/Fish_Normal_OpenGL 1.mat
-  artifactKey: Guid(40a71bb8cb7d78542b1f1a8ec20d72e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/stylized-fish/Materials/Fish_Normal_OpenGL 1.mat using Guid(40a71bb8cb7d78542b1f1a8ec20d72e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f977297fbbc0e7313aa39429d10b796') in 0.012323 seconds
-  Import took 0.017077 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2762.598808 seconds.
-  path: Assets/Materials/flower-pentogram-glow.png
-  artifactKey: Guid(1f22d8f57f6a0a64dacbe12b3b52a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/flower-pentogram-glow.png using Guid(1f22d8f57f6a0a64dacbe12b3b52a963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919cf4641397973824e170c028ce694c') in 0.019555 seconds
-  Import took 0.026536 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Materials/flower-pentogram.png
-  artifactKey: Guid(8c1be1458c8ecda4e89cef5c051b20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/flower-pentogram.png using Guid(8c1be1458c8ecda4e89cef5c051b20a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c1341046af6a7d7d30eb07c3b1bb2a') in 0.033223 seconds
-  Import took 0.038582 seconds .
+  Time since last request: 7.811559 seconds.
+  path: Assets/Audio/magic-effect.wav
+  artifactKey: Guid(4489e7795a005d84fbc445e24f6dda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/magic-effect.wav using Guid(4489e7795a005d84fbc445e24f6dda35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd843eb8cb2f72ec72475644cd71dd72d') in 0.012800 seconds
+  Import took 0.018059 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003713 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.310 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.5 MB.
-System memory in use after: 170.7 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3744.
-Total: 2.725100 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.147800 ms MarkObjects: 2.199600 ms  DeleteObjects: 0.067800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003277 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.5 MB.
-System memory in use after: 170.8 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3747.
-Total: 3.662500 ms (FindLiveObjects: 0.397400 ms CreateObjectMapping: 0.196300 ms MarkObjects: 2.963500 ms  DeleteObjects: 0.102900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021267 seconds.
+Registered in 0.004754 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
@@ -342,16 +182,15 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
+- Completed reload, in  1.311 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2946 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.5 MB.
-System memory in use after: 170.8 MB.
+System memory in use before: 153.9 MB.
+System memory in use after: 154.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3750.
-Total: 3.387000 ms (FindLiveObjects: 0.579900 ms CreateObjectMapping: 0.290900 ms MarkObjects: 2.420800 ms  DeleteObjects: 0.093800 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3598.
+Total: 2.779700 ms (FindLiveObjects: 0.429300 ms CreateObjectMapping: 0.196900 ms MarkObjects: 2.087900 ms  DeleteObjects: 0.064600 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
