@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 27891
+  controlID: 7408
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 27777
+  controlID: 7459
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 27778
+  controlID: 7460
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -446,10 +446,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 934}
-      m_SelectedIDs: eabafdff
-      m_LastClickedID: -148758
-      m_ExpandedIDs: 98a0feff640fffffe019ffff7ef2ffffb2f7ffff1efbffff
+      scrollPos: {x: 0, y: 758}
+      m_SelectedIDs: 3695ffff
+      m_LastClickedID: -27338
+      m_ExpandedIDs: 3695ffff22f7ffff1efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -509,9 +509,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 38.4541, y: -16.4886, z: 41.107582}
+    m_Target: {x: 40.85247, y: 2.2505727, z: 45.30479}
     speed: 2
-    m_Value: {x: 38.4541, y: -16.4886, z: 41.107582}
+    m_Value: {x: 40.85247, y: 2.2505727, z: 45.30479}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,13 +558,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.03454727, y: 0.7341795, z: -0.6784264, w: 0.03192565}
+    m_Target: {x: -0.044818968, y: -0.6249515, z: 0.031444747, w: -0.77972156}
     speed: 2
-    m_Value: {x: 0.03454727, y: 0.7341795, z: -0.6784264, w: 0.03192565}
+    m_Value: {x: 0.044818968, y: 0.6249514, z: -0.031444747, w: 0.77972156}
   m_Size:
-    m_Target: 10.45
+    m_Target: 8.337378
     speed: 2
-    m_Value: 10.45
+    m_Value: 8.337378
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -705,22 +705,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\35389\Desktop\Copy\Games Engines 2 Assignment\Games-Engines-2-CA
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 10}
-    m_SelectedIDs: f6500000
-    m_LastClickedID: 20726
-    m_ExpandedIDs: 00000000e250000000ca9a3b
+    m_SelectedIDs: 98510000
+    m_LastClickedID: 20888
+    m_ExpandedIDs: 000000008451000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -748,7 +748,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e250000000ca9a3b
+    m_ExpandedIDs: 000000008451000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
