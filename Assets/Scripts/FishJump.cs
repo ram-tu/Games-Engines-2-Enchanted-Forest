@@ -16,7 +16,7 @@ public class FishJump : MonoBehaviour
     public Path jumpPath;
     // Start is called before the first frame update
     private void OnEnable()
-    {
+    { 
         StartCoroutine(Jump());
     }
 
@@ -40,11 +40,21 @@ public class FishJump : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(10f);
-            float distanceUp = transform.position.x + distance;
+            float distanceUp;
+            if (GetComponent<FollowPath>().next == 0)
+            {
+                
+                distanceUp = transform.position.x - distance;
+            }
+            else
+            {
+                distanceUp = transform.position.x + distance; 
+            }
             float heightUp = transform.position.y + height;
-            float distanceDown = transform.position.x + distance + (distance / 2);
+            float distanceDown = transform.position.x + distance + (distance / 4);
+            float heightDown = transform.position.y - (height);
             Vector3 waypoint1 = new Vector3(distanceUp,heightUp,transform.position.z);
-            Vector3 waypoint2 = new Vector3(distanceDown, transform.position.y, transform.position.z);
+            Vector3 waypoint2 = new Vector3(distanceDown, heightDown, transform.position.z);
             Debug.Log("the waypoint count is " + waypoints.Count);
             if (waypoints.Count != 2)
             {
@@ -62,7 +72,6 @@ public class FishJump : MonoBehaviour
             jumpPath.waypoints = waypoints;
             GetComponent<StateMachine>().ChangeState(new JumpState());
             
-
         }
     }
 }

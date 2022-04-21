@@ -6574,7 +6574,7 @@ MonoBehaviour:
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   path: {fileID: 1961464893}
-  waypointDistance: 2
+  waypointDistance: 1
   next: 0
   isLooped: 1
 --- !u!114 &500922385
@@ -29821,7 +29821,7 @@ MonoBehaviour:
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
   path: {fileID: 1961464893}
-  waypointDistance: 2
+  waypointDistance: 0.5
   next: 0
   isLooped: 1
 --- !u!114 &1559762842
@@ -29876,7 +29876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shouldJump: 0
-  height: 2
+  height: 1
   distance: 2
   waypoints: []
   originalPath: {fileID: 0}
