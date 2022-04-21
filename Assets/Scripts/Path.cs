@@ -8,7 +8,7 @@ public class Path : MonoBehaviour
     // Start is called before the first frame update
 
     public int current = 0;
-
+    public bool populatePath = true;
     public bool isLooped = true;
 
     private void PopulatePath()
@@ -25,25 +25,29 @@ public class Path : MonoBehaviour
 
     public void Awake()
     {
-        PopulatePath();
+        if(populatePath)
+            PopulatePath();
     }
 
     public void OnDrawGizmos()
     {
-        PopulatePath();
-        Gizmos.color = Color.cyan;
-        for(int i = 1 ; i < waypoints.Count ; i ++)
+        if (populatePath)
         {
-            Gizmos.DrawLine(waypoints[i - 1], waypoints[i]);
-            Gizmos.DrawSphere(waypoints[i-1], 1);
-            Gizmos.DrawSphere(waypoints[i], 1);
+            PopulatePath();
+            Gizmos.color = Color.cyan;
+            for(int i = 1 ; i < waypoints.Count ; i ++)
+            {
+                Gizmos.DrawLine(waypoints[i - 1], waypoints[i]);
+                Gizmos.DrawSphere(waypoints[i-1], 1);
+                Gizmos.DrawSphere(waypoints[i], 1);
             
-        }
+            }
 
-        if (isLooped)
-        {
-            Gizmos.DrawLine(waypoints[waypoints.Count - 1], waypoints[0]);
+            if (isLooped)
+            {
+                Gizmos.DrawLine(waypoints[waypoints.Count - 1], waypoints[0]);
 
+            }
         }
     }
 

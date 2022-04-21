@@ -12,6 +12,7 @@ class SwimState : State
     {
         owner.GetComponent<FollowPath>().enabled = true;
         owner.GetComponent<FishJump>().enabled = true;
+        Debug.Log("I am now in the swim state");
 
     }
 
@@ -25,7 +26,7 @@ class SwimState : State
     
     public override void Exit()
     {
-        owner.GetComponent<FollowPath>().enabled = false;
+        
     }
 }
 
@@ -34,34 +35,26 @@ public class JumpState : State
     public override void Enter()
     {
         Debug.Log("I am now in the jump state");
-        owner.GetComponent<FollowPath>().path.waypoints = owner.GetComponent<FishJump>().waypoints;
+        owner.GetComponent<FollowPath>().path = owner.GetComponent<FishJump>().jumpPath;
         owner.GetComponent<FollowPath>().isLooped = false;
+        owner.GetComponent<FollowPath>().next = 0;
+        owner.GetComponent<Boid>().maxSpeed = 3;
         //owner.GetComponent<Pursue>().target = owner.GetComponent<Fighter>().enemy.GetComponent<Boid>();
         //owner.GetComponent<Pursue>().enabled = true;
     }
 
     public override void Think()
     {
-        
-        /*Vector3 toEnemy = owner.GetComponent<Fighter>().enemy.transform.position - owner.transform.position; 
-        if (Vector3.Angle(owner.transform.forward, toEnemy) < 45 && toEnemy.magnitude < 20)
+        if (owner.GetComponent<FollowPath>().IsLast())
         {
-            GameObject bullet = GameObject.Instantiate(owner.GetComponent<Fighter>().bullet, owner.transform.position + owner.transform.forward * 2, owner.transform.rotation);
-            owner.GetComponent<Fighter>().ammo --;        
-        }
-        if (Vector3.Distance(
-            owner.GetComponent<Fighter>().enemy.transform.position,
-            owner.transform.position) > 30)
-        {
-            owner.ChangeState(new PatrolState());
-        }*/
-        if(owner.GetComponent<FollowPath>().IsLast())
             owner.ChangeState(new SwimState());
+        }
     }
 
     public override void Exit()
     {
         owner.GetComponent<FishJump>().shouldJump = false;
+        owner.GetComponent<FollowPath>().path = owner.GetComponent<FishJump>().originalPath;
     }
 
 }

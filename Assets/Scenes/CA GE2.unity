@@ -6651,6 +6651,7 @@ MonoBehaviour:
   - {x: 16.49, y: 2.24, z: 14.35}
   - {x: 13.156, y: 1.38, z: 14.35}
   current: 0
+  populatePath: 1
   isLooped: 1
 --- !u!4 &545003460
 Transform:
@@ -12254,6 +12255,7 @@ MonoBehaviour:
   - {x: 26.75, y: 1.75, z: 43.41}
   - {x: 33.66, y: 1.8, z: 39.559998}
   current: 0
+  populatePath: 1
   isLooped: 1
 --- !u!4 &814855841
 Transform:
@@ -17512,6 +17514,10 @@ PrefabInstance:
     - target: {fileID: 2535954103604261512, guid: 838c0bef810bfe94d8e33947c3cba7c6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.106
+      objectReference: {fileID: 0}
+    - target: {fileID: 2535954103604261516, guid: 838c0bef810bfe94d8e33947c3cba7c6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2535954103604261519, guid: 838c0bef810bfe94d8e33947c3cba7c6, type: 3}
       propertyPath: m_Name
@@ -29857,6 +29863,53 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1559762845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559762840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 975774746a54c2c489b4a3b8be8a2ed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldJump: 0
+  height: 2
+  distance: 2
+  waypoints: []
+  originalPath: {fileID: 0}
+  jumpPath: {fileID: 0}
+--- !u!114 &1559762846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559762840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57b4db1c843b9de41901c037caf5482d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updatesPerSecond: 5
+--- !u!114 &1559762847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559762840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde80c5533eb05141b4f8fb5975107f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waypoints: []
+  current: 0
+  populatePath: 0
+  isLooped: 1
 --- !u!1 &1578414419
 GameObject:
   m_ObjectHideFlags: 0
@@ -30785,6 +30838,7 @@ MonoBehaviour:
   - {x: 16.1, y: 3.76, z: 11.7}
   - {x: 12.766001, y: 1.38, z: 10.79}
   current: 0
+  populatePath: 1
   isLooped: 1
 --- !u!4 &1886355195
 Transform:
@@ -31117,6 +31171,7 @@ MonoBehaviour:
   - {x: 44.08, y: -0.19, z: 18.2}
   - {x: 52.91, y: 0.74, z: 21.71}
   current: 0
+  populatePath: 1
   isLooped: 1
 --- !u!4 &1961464894
 Transform:
@@ -41011,6 +41066,7 @@ MonoBehaviour:
   - {x: 17.03, y: 3.76, z: 6.93}
   - {x: 13.41, y: 3.6, z: 14.26}
   current: 0
+  populatePath: 1
   isLooped: 1
 --- !u!4 &2041032161
 Transform:
