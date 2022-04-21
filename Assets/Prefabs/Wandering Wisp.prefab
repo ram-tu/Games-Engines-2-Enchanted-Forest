@@ -10043,7 +10043,7 @@ MonoBehaviour:
   distance: 20
   radius: 10
   jitter: 100
-  yComponent: 6
+  yComponent: 3
   target: {x: 0, y: 0, z: 0}
   worldTarget: {x: 0, y: 0, z: 0}
 --- !u!114 &1229887662718771245

@@ -52,6 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\FishStates.cs" />
      <Compile Include="Assets\Scripts\SteeringBehaviour.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -120,6 +121,7 @@
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\FogComponent.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\Scripts\FishJump.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
