@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Flocking : MonoBehaviour
+public class Flocking : SteeringBehaviour
 {
     public List<Flocking> tagged = new List<Flocking>();
     // Start is called before the first frame update
@@ -15,6 +15,12 @@ public class Flocking : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public override Vector3 Calculate()
+    {
+        Vector3 force = Alignment() + Cohesion() + Seperation();
+        return boid.SeekForce(force);
     }
 
     Vector3 Seperation()
@@ -48,7 +54,7 @@ public class Flocking : MonoBehaviour
         if (taggedCount > 0)
         {
             centerofMass /= taggedCount;
-            steeringForce = GetComponent<Boid>().SeekForce(centerofMass);
+            steeringForce = boid.SeekForce(centerofMass);
         }
 
         return steeringForce;
@@ -62,14 +68,14 @@ public class Flocking : MonoBehaviour
         {
             if (entity != this)
             {
-                steeringForce += entity.gameObject.GetComponent<Boid>().velocity;
+                steeringForce += entity.boid.velocity;
                 taggedCount++;
             }
         }
         if (taggedCount > 0)
         {
-            steeringForce /= (float)taggedCount;
-            steeringForce -= GetComponent<Boid>().velocity;
+            steeringForce /= taggedCount;
+            steeringForce -= boid.velocity;
         }
 
         return steeringForce;

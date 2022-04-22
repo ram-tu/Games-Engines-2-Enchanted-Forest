@@ -53,6 +53,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\FishStates.cs" />
+     <Compile Include="Assets\Scripts\Flocking.cs" />
      <Compile Include="Assets\Scripts\SteeringBehaviour.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
@@ -125,7 +126,6 @@
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\Flocking.cs" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
