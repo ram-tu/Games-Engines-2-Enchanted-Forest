@@ -8,19 +8,19 @@ public class Flocking : SteeringBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //tagged = new List<Flocking>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("My number of neighbours is " + tagged.Count);
     }
 
     public override Vector3 Calculate()
     {
         Vector3 force = Alignment() + Cohesion() + Seperation();
-        return boid.SeekForce(force);
+        return force;
     }
 
     Vector3 Seperation()
