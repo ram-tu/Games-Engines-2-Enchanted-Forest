@@ -1267,7 +1267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235096844}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84b41a0d0cb47f44ca422dbf97c32639, type: 3}
   m_Name: 
@@ -12365,7 +12365,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656040199}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84b41a0d0cb47f44ca422dbf97c32639, type: 3}
   m_Name: 
@@ -19025,7 +19025,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107405102}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84b41a0d0cb47f44ca422dbf97c32639, type: 3}
   m_Name: 
@@ -43533,6 +43533,14 @@ PrefabInstance:
     m_TransformParent: {fileID: 1652962100}
     m_Modifications:
     - target: {fileID: 119318275536594158, guid: a92abe153890ee04f97a187a98a7e090, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 119318275536594158, guid: a92abe153890ee04f97a187a98a7e090, type: 3}
+      propertyPath: tagged.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 119318275536594158, guid: a92abe153890ee04f97a187a98a7e090, type: 3}
       propertyPath: tagged.Array.data[0]
       value: 
       objectReference: {fileID: 235096845}
@@ -43544,6 +43552,14 @@ PrefabInstance:
       propertyPath: tagged.Array.data[2]
       value: 
       objectReference: {fileID: 656040200}
+    - target: {fileID: 119318275536594158, guid: a92abe153890ee04f97a187a98a7e090, type: 3}
+      propertyPath: tagged.Array.data[3]
+      value: 
+      objectReference: {fileID: 1636713388}
+    - target: {fileID: 119318275536594161, guid: a92abe153890ee04f97a187a98a7e090, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3814980326261869297, guid: a92abe153890ee04f97a187a98a7e090, type: 3}
       propertyPath: m_Name
       value: Wisp (Pink)

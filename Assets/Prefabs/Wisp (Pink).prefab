@@ -14647,8 +14647,8 @@ MonoBehaviour:
   mass: 1
   damping: 0.01
   banking: 0.093
-  maxSpeed: 0.5
-  maxForce: 0.5
+  maxSpeed: 1
+  maxForce: 2
 --- !u!114 &119318275536594161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14664,9 +14664,9 @@ MonoBehaviour:
   weight: 1
   force: {x: 0, y: 0, z: 0}
   boid: {fileID: 0}
-  distance: 5
+  distance: 10
   radius: 10
-  jitter: 50
+  jitter: 100
   yComponent: 3
   target: {x: 0, y: 0, z: 0}
   worldTarget: {x: 0, y: 0, z: 0}

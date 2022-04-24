@@ -9,12 +9,13 @@ public class Flocking : SteeringBehaviour
     void Start()
     {
         //tagged = new List<Flocking>();
+        tagged.Remove(GetComponent<Flocking>());
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("My number of neighbours is " + tagged.Count);
+        
     }
 
     public override Vector3 Calculate()
@@ -35,6 +36,8 @@ public class Flocking : SteeringBehaviour
                 steeringForce = (toEntity.normalized / toEntity.magnitude);
             }
         }
+
+        Debug.Log("the seperation force is " + steeringForce);
         return steeringForce;
     } 
 
@@ -45,7 +48,7 @@ public class Flocking : SteeringBehaviour
         float taggedCount = 0;
         foreach (Flocking entity in tagged)
         {
-            if (entity != this)
+            if (entity.gameObject != gameObject)
             {
                 centerofMass += entity.gameObject.transform.position;
                 taggedCount++;
@@ -54,9 +57,9 @@ public class Flocking : SteeringBehaviour
         if (taggedCount > 0)
         {
             centerofMass /= taggedCount;
-            steeringForce = boid.SeekForce(centerofMass);
+            steeringForce = GetComponent<Boid>().SeekForce(centerofMass);
         }
-
+        Debug.Log("the cohesion force is " + steeringForce);
         return steeringForce;
     }
 
@@ -66,18 +69,18 @@ public class Flocking : SteeringBehaviour
         float taggedCount = 0;
         foreach (Flocking entity in tagged)
         {
-            if (entity != this)
+            if (entity.gameObject != this.gameObject)
             {
-                steeringForce += entity.boid.velocity;
+                steeringForce += entity.GetComponent<Boid>().velocity;
                 taggedCount++;
             }
         }
         if (taggedCount > 0)
         {
             steeringForce /= taggedCount;
-            steeringForce -= boid.velocity;
+            steeringForce -= GetComponent<Boid>().velocity;
         }
-
+        Debug.Log("the alignment force is " + steeringForce);
         return steeringForce;
     }
 }
