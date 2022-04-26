@@ -5,6 +5,8 @@ using UnityEngine;
 public class Flocking : SteeringBehaviour
 {
     public List<Flocking> tagged = new List<Flocking>();
+
+    public float cohesionDistance = 0.5f;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,7 +58,7 @@ public class Flocking : SteeringBehaviour
         }
         if (taggedCount > 0)
         {
-            centerofMass /= taggedCount;
+            centerofMass /= taggedCount + cohesionDistance;
             steeringForce = GetComponent<Boid>().SeekForce(centerofMass);
         }
         Debug.Log("the cohesion force is " + steeringForce);
