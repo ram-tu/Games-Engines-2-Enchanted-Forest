@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\NoiseWander.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\DitheringComponent.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\Scripts\OrbWispController.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\Script\ScrollUVWater.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\BloomModel.cs" />
@@ -128,7 +129,6 @@
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\OrbWispController.cs" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
