@@ -99,6 +99,7 @@
      <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\Scripts\Path.cs" />
      <Compile Include="Assets\Scripts\Constrain.cs" />
+     <Compile Include="Assets\Scripts\ObstacleAvoidance.cs" />
      <Compile Include="Assets\Scripts\BigBoid.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Components\GrainComponent.cs" />
      <Compile Include="Assets\Scripts\Flee.cs" />
@@ -127,7 +128,7 @@
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
      <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
      <Compile Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Runtime\Models\DitheringModel.cs" />
-     <Compile Include="Assets\Scripts\ObstacleAvoidance.cs" />
+     <Compile Include="Assets\Scripts\OrbWispController.cs" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Resources\Shaders\GrainGen.shader" />
      <None Include="Assets\Models&amp;Asset\DreamForestTree\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
