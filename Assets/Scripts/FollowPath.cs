@@ -13,6 +13,7 @@ public class FollowPath : SteeringBehaviour {
 
     public int next = 0;
     public bool isLooped = true;
+    public bool finished = false;
 
 
     public void OnDrawGizmos()
@@ -40,6 +41,10 @@ public class FollowPath : SteeringBehaviour {
             if (next != path.waypoints.Count - 1)
             {
                 next++;
+            }
+            if(next == path.waypoints.Count - 1)
+            {
+                finished = true;
             }
         }
     }
