@@ -20,6 +20,11 @@ and wander. As well as that I plan to have various animal lifeforms like elks an
 
 # Assignment Details
 
+The camera will follow a path, showcasing the forest, eventually stopping allowing the user to free roam! this is a magical forest with
+wisps implementing behaviours like flocking, path following and wandering. global volume was used for the effects and the terrain was generated
+with unity's terrain component. this is mostly a forest simulation and I'm most proud of the visuals and effects used to create a cool looking
+forest.
+
 ## Behaviuours
 - Deer following a set path
 - 3 coloured wisps (aqua, blue and green) following a different path together using path following
@@ -38,4 +43,7 @@ and wander. As well as that I plan to have various animal lifeforms like elks an
 - dark green wisps near trees using particle effects
 - downloaded assets like rain, waterfall and sound effects used
 - terrain generator used, with downloaded assets for moving grass
+
+## Youtube Link
+https://youtu.be/KwZxPJXmoDg
 

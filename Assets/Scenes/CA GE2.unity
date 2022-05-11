@@ -22520,7 +22520,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -22761,8 +22761,8 @@ MonoBehaviour:
   mass: 1
   damping: 1.26
   banking: 0.268
-  maxSpeed: 10
-  maxForce: 10
+  maxSpeed: 4
+  maxForce: 5
 --- !u!114 &963194234
 MonoBehaviour:
   m_ObjectHideFlags: 0
