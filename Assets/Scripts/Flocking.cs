@@ -38,8 +38,7 @@ public class Flocking : SteeringBehaviour
                 steeringForce = (toEntity.normalized / toEntity.magnitude);
             }
         }
-
-        Debug.Log("the seperation force is " + steeringForce);
+        
         return steeringForce;
     } 
 
@@ -61,7 +60,6 @@ public class Flocking : SteeringBehaviour
             centerofMass /= taggedCount + cohesionDistance;
             steeringForce = GetComponent<Boid>().SeekForce(centerofMass);
         }
-        Debug.Log("the cohesion force is " + steeringForce);
         return steeringForce;
     }
 
@@ -82,7 +80,6 @@ public class Flocking : SteeringBehaviour
             steeringForce /= taggedCount;
             steeringForce -= GetComponent<Boid>().velocity;
         }
-        Debug.Log("the alignment force is " + steeringForce);
         return steeringForce;
     }
 }
